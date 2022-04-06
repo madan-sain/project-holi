@@ -1,70 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--bootstrap CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="index.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--bootstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
 </head>
+
 <body>
-    
+  <div class="main">
     <!-- navbar is starting  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">  <span class="navbar-toggler-icon mx-2"></span>google arts and culture</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#"> <i class="fa fa-bars me-2 " aria-hidden="true"></i> </i> google
+          arts and culture</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars text-white" aria-hidden="true"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Play</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nearby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Favorites</a>
+            </li>
+
+          </ul>
+          <form class="d-flex me-4 serach">
+            <a href="#">
+              <i class="fa fa-search " aria-hidden="true"></i>
+            </a>
+          </form>
+          <form class="d-flex me-5 serach">
+            <a href="#">
+              <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hedpaer">
+      <h1>Shades of Holi</h1>
+      <p>Celebrate Holi from across India</p>
+      <ul class="">
+        <li><i class="fa fa-heart m-3" aria-hidden="true"></i>
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </li>
+        <li> </li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <!-- navbar is end  -->
+
+  <div class="container">
+    <div class="row justify-content-center mt-5 ">
+      <div class="col-2 "><img
+          src="https://images.squarespace-cdn.com/content/v1/59341e836a496389be3040cd/1592929612948-MM0GFJRCU641E3U8FR15/Red+Logo.jpg?format=1500w"
+          alt="" class="w-50"></div>
+      <div class="col-2 "><img src="https://pbs.twimg.com/profile_images/1426214759267856384/d-QrmCrv_400x400.jpg"
+          alt="" class="w-50"></div>
+      <div class="col-2 "> <img
+          src="http://lh3.googleusercontent.com/ebeDVd5GebiaV6ji-_ZwI0HKCXNa2czBlCY77Iy3lGKTpu0BDUcEwvWB_ieB6w" alt=""
+          class="w-50"></div>
+      <div class="col-2 "><img src="https://vigyanprasar.gov.in/wp-content/uploads/7-NCSM-Logo-1-1024x1024.jpg" alt=""
+          class="w-50"></div>
+      <div class="col-2 "><img src="https://banglanatak.com/assets/components/utilities/banglanatak.png" alt=""
+          class="w-50"></div>
+    </div>
+    <h6 class="text-center mt-5"><a href="#">and 16 more Collections</a></h6>
+  </div>
+
+  <!-- first card  -->
+  <div class="first-card">
+    <div class="container-fluid ">
+      <div class="row p-2 ">
+
+        <div class="col-md-6 ">
+          <div class="zoming">
+            <img
+              src="https://www.indianartzone.com/pub/media/catalog/product/cache/10f519365b01716ddb90abc57de5a837/s/c/screenshot_2_12_1.png"
+              calss="w-50">
+            <P class="mt-3">Online Exhibit</P>
+            <h6>Top 5 things to know about Holi</h6>
+            <p>A quick guide to the iconic Indian festival</p>
+
+
           </div>
         </div>
-      </nav>
-      
+        <div class="col-md-6 ">
+          <div class="zoming">
+            <img
+              src="https://daex9l847wg3n.cloudfront.net/shemoutputimages/Holi-Ka-Dahan/5e5f8cd4a609d21bfd000008/large_16_9_1583319573.jpg"
+              calss="w-50">
+            <P class="mt-3">Online Exhibit</P>
+            <h6> Learn about the Legend
+            </h6>
+            <p> Read about Holika and Prahlad,
+              the two central characters from mythology</p>
 
 
-      <!-- navbar is end  -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- first card is done  -->
 
 
 
+  <div class="sexoud-part">
+    <h1 class="text-center p-5">Explore Holi celebrations in art</h1>
+    <div class="row mt-5">
+      <div class="col-md-6 text-center">
+        <div class="mart">
+          <p>ONLINE EXHIBIT</p>
+          <div class="sub-s-part">
+            <h3>joy of holi!</h3>
+            <p>calibration thought art</p>
+            <button class="btn btn-primary">read</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-6 sub-s-part2 w-50 p-3">
+        <img src="https://www.india.com/wp-content/uploads/2018/08/Holi-FOLKLORE-1.jpg">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- secound part is done  -->
+  <!-- thard part  -->
+
+  <div class="thard-card">
+    <div class="container-fluid ">
+      <div class="row p-2 ">
+        <h1 class="text-center p-5">Play with colours...
+          <p class="fs-6">After all, it's the season of spring!</p>
+        </h1>
+
+        <div class="col-md-6 ">
+          <div class="zoming">
+            <img
+              src="https://static.toiimg.com/thumb/msid-90305784,imgsize-112380,width-1000,height-562,resizemode-8/90305784.jpg"
+              calss="w-50">
+            <P class="mt-3">All Natural Colours</P>
+            <h6>There's some science behind Holi colours!</h6>
+            <p>Get inspired to make your own natural colours</p>
 
 
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="zoming">
+            <img src="https://www.knocksense.com/media-library/image.jpg?id=24506298&width=740&quality=80" calss="w-50">
+            <P class="mt-3">
+              STREET ART OR RANGOLI?
+
+            </P>
+            <h6> There's some street art behind Holi too!
+            </h6>
+            <p> Get inspired by these artists and make a Holi rangoli yourself</p>
 
 
+          </div>
+        </div>
+      </div>
+
+      <div class="row p-2 ">
+        <h1 class="text-center p-5">...Or try your hand at some games
+
+        </h1>
+
+        <div class="col-md-6 ">
+          <div class="zoming">
+            <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Holi7.max-1000x1000.png"
+              calss="w-50">
+            <P class="mt-3">Puzzles</P>
+            <h6>Try your hand at some Holi themed puzzles</h6>
+            <p>Join the fun at home with a puzzle party!</p>
 
 
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="zoming">
+            <img src="https://i.pinimg.com/originals/ff/b8/84/ffb884a1650263c9f310e0dfa961557c.jpg" calss="w-50">
+            <p class="mt-3"> </p>
+            <h6> It's spring time - why not add your own colour?
+            </h6>
+            <p> Pick a landscape, pick a colour, and make your own version</p>
 
 
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- thard card is done  -->
+
+  <!-- forth part -->
+  <div class="foith-part">
+    <h1 class="text-center p-5">Travel back in time
+      <p class="fs-6">Experience Holi across India</p>
+    </h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="embed-responsive embed-responsive-16by9 imbadiframe">
+            <iframe class="w-100 " src="https://www.youtube-nocookie.com/embed/OOBW5gXzKXE" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center p-5">Discover the rich cultural landscape of <br>celebrations
+      <p class="fs-6">ExDive deeper into regional traditions</p>
+    </h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-7 fort1">
+              <div class="cardtext">
+                <button class="btn btn-primary py-0 px-2 rounded">read</button>
+                <h5>Dola Purnima: Spring Celebrations in Odisha</h5>
+                <p>Holi, the colourful spring festival, as celebrated in the Indian state of Odisha.</p>
+              </div>
+            </div>
+            <div class="col-4 fort1">
+              <div class="cardtext">
+                <button class="btn btn-primary py-0 px-2 rounded">read</button>
+                <h5>color in the Himalayas</h5>
+                <p>Music is an essential part of the celebrations!</p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- secound row  -->
+
+
+          <div class="row">
+            <div class="col-4 fort1">
+              <div class="cardtext">
+                <button class="btn btn-primary py-0 px-2 rounded">read</button>
+                <h5>color in the Himalayas </h5>
+                <p> Music is an essential part of the celebrations!</p>
+              </div>
+            </div>
+            <div class="col-7 fort1">
+              <div class="cardtext">
+                <button class="btn btn-primary py-0 px-2 rounded">read</button>
+                <h5> Dola Purnima: Spring Celebrations in Odisha</h5>
+                <p> Holi, the colourful spring festival, as celebrated in the Indian state of Odisha.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 fort2 ">
+          <div class="cardtext ">
+            <button class="btn btn-primary py-0 px-2 rounded">read</button>
+            <h5> Dola Purnima: Spring Celebrations in Odisha</h5>
+            <p> Holi, the colourful spring festival, as celebrated in the Indian state of Odisha.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- forth part is done  -->
+  <div class="five-part">
+  <div class="container">
+  
+
+    <h1 class="text-center p-5">Did you know there's sports during Holi?
+    </h1>
+  <!-- <div class="sexoud-part"> -->
+  
+    <div class="row">
+      <div class="col-md-6 textput">
+        
+        <p>ONLINE EXHIBIT</p>
+          <div class="sub-s-part">
+            <h3>Yubi Lakpi: The Indian Rugby</h3>
+            <p>The traditional Meitei game of Yubi Lakpi is known as the Indian rugby and is played during Yaoshang festivities, the spring celebrations in the state of Manipur, India.</p>
+            <button class="btn btn-primary">read</button>
+          </div>
+      </div>
+      <div class="col-md-6 ">
+        <img src="http://amazingindiablog.in/wp-content/uploads/2017/01/Yubi-Lapki-Game.jpg" alt="" class="mt-4">
+          
+  
+      </div>
+    </div>
+
+
+    <!-- SEC-PART  -->
+  <div class="row mt-5">
+    <div class="col-md-6 ">
+      <img src="https://lh3.googleusercontent.com/o-Uy8pF_RVLuM2b8g20HuS-lru7b4gDYFwobLsKOAkifismK709B-I_2NBlly1LH=s1200" alt="" class="">
+    </div>
+    <div class="col-md-6 textput ">
+     
+        <p>ONLINE EXHIBIT</p>
+        <div class="sub-s-part">
+          <h3>Celebrating Hola Mohalla with a Show of Skills</h3>
+          <p>hola Mohalla, celebrated at Charan Ganga Stadium the day after Holi, honours valour, skill and defence preparedness, introduced by the Tenth Guru, Guru Gobind Singh.</p>
+          <button class="btn btn-primary">read</button>
+        </div>
+
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+<!-- five part is done -->
+
+<!-- six part is done  -->
+
+<div class="six-part ">
+  <div class="container-fluid ">
+    <h1 class="text-center p-5">Curious about the festive wear?
+      <P >Traditional attires from Manipur and Punjab</P>
+    </h1>
+    <div class="row p-2 ">
+
+      <div class="col-md-6 ">
+        <div class="zoming">
+          <img
+            src="https://lh3.googleusercontent.com/qoxXU-v29_AEWwDeemVAzOJ-865F8GV1CYXCIex6GI4cKVv1a1DfwLehkWYxLAy7dQ=s1200"
+            calss="w-25">
+          <P class="mt-3">Online Exhibit</P>
+          <h6>Decked in white, the Meitei people for Yaoshang</h6>
+          <p>Read about the significance of costumes worn for Yaoshang</p>
+
+
+        </div>
+      </div>
+      <div class="col-md-6 mt-3">
+        <div class="zoming">
+          <img
+            src="https://gumlet.assettype.com/swarajya%2F2018-03%2Fbd3c50fb-3fff-4ba5-8e7b-a4cd12ea0ce2%2Faa5eb812-62b9-4448-b47d-da9bc3929cca.jpg?format=auto"
+            calss="w-50">
+          <P class="mt-3">Online Exhibit</P>
+          <h6> Going blue during Hola Mohalla
+          </h6>
+          <p> See how Nihang Sikhs decorate their turbans during Hola Mohalla</p>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5 p-5">
+    <h1 class="text-center p-5">Join in the parade!
+   
+    </h1>
+    <div class="col-md-6 ">
+      <img src="https://d3pc1xvrcw35tl.cloudfront.net/images/1103x827/new-project-2021-10-14t125133.156_202110705216.jpg" alt="" class="w-100">
+    </div>
+    <div class="col-md-6 textput ">
+     
+        <p>ONLINE EXHIBIT</p>
+        <div class="sub-s-part">
+          <h3>Holi in Goa: The Shigmo Processions</h3>
+          <p>A major part of Goa’s Shigmo festival, are the processions with floats showcasing mythological characters. These draw a large crowd from all over the country and visiting tourists.</p>
+          <button class="btn btn-primary">read</button>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- seven part  -->
+
+<div class="seven-part">
+  <h1 class="text-center">Keep exploring...
+    <p>© 2022 All Right Reserved Madan sain</p>
+  </h1>
+</div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

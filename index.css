@@ -1,11 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
 
-*
-
-{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     text-transform: capitalize;
     transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+    font-size: 15px;
+}
+
+.main {
+    background-image: url(http://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2018/02/acj-1002-rajasthani-holi-og.jpg);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #0000004b;
+
+
+}
+
+.navbar {
+    background: #0000004b;
+}
+
+.serach a i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.hedpaer {
+
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    color: #fff;
+
+}
+
+.hedpaer ul {
+
+    list-style: none;
+    font-size: 25px;
+
+}
+
+.first-card {
+    background-color: #f58a42;
+}
+
+.zoming img {
+    width: 100%;
+
+}
+
+.zoming img:hover {
+    transform: scale(0.9);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.zoming img {
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+.zoming {
+    line-height: 0.1;
+
+}
+
+p {
+    font-size: 12px;
+}
+
+.sexoud-part {
+    background-color: #f0d97d;
+}
+
+.mart {
+    background: transparent;
+    border: #5e5c5c4b 1px solid;
+    margin: 25px;
+    padding: 100px 80px;
+    /* width: 100%; */
+    box-shadow: 1px 5px 10px;
+    border-radius: 10px 0px 0 10px;
+}
+
+.sexoud-part .mart button {
+    position: relative;
+    top: 30px;
+
+}
+
+img:hover {
+    transform: scale(0.9);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.thard-card {
+    background-color: #f58c84;
+}
+
+.foith-part {
+    background-color: #e67fb8;
+}
+
+.imbadiframe iframe {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.fort1 {
+    background-color: #9c9595;
+    height: 30vh;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.fort2 {
+    background-color: #9c9595;
+    height: 65vh;
+    border-radius: 20px;
+
+
+}
+
+.five-part {
+    background-color: #f58a42;
+    display: flex;
+    padding: 5%;
+}
+
+.textput {
+    background: transparent;
+    border: #5e5c5c4b 1px solid;
+    /* margin: 25px; */
+    padding: 80px 100px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 5px 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.five-part img {
+    width: 100%;
+}
+
+.six-part {
+    background-color: #f0d97d;
+}
+.seven-part{
+    
 }
